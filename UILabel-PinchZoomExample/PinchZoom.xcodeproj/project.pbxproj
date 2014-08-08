@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99C8B32519940E400097A514 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C8B32419940E400097A514 /* Foundation.framework */; };
+		99C8B32719940E400097A514 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C8B32619940E400097A514 /* CoreGraphics.framework */; };
+		99C8B32919940E400097A514 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C8B32819940E400097A514 /* UIKit.framework */; };
+		99C8B32F19940E400097A514 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99C8B32D19940E400097A514 /* InfoPlist.strings */; };
+		99C8B33119940E400097A514 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C8B33019940E400097A514 /* main.m */; };
+		99C8B33519940E400097A514 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C8B33419940E400097A514 /* AppDelegate.m */; };
+		99C8B33819940E400097A514 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C8B33619940E400097A514 /* Main.storyboard */; };
+		99C8B33B19940E400097A514 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C8B33A19940E400097A514 /* ViewController.m */; };
+		99C8B33D19940E400097A514 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C8B33C19940E400097A514 /* Images.xcassets */; };
+		99C8B34419940E400097A514 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C8B34319940E400097A514 /* XCTest.framework */; };
+		99C8B34519940E400097A514 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C8B32419940E400097A514 /* Foundation.framework */; };
+		99C8B34619940E400097A514 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C8B32819940E400097A514 /* UIKit.framework */; };
+		99C8B34E19940E400097A514 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99C8B34C19940E400097A514 /* InfoPlist.strings */; };
+		99C8B35019940E400097A514 /* PinchZoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C8B34F19940E400097A514 /* PinchZoomTests.m */; };
+		99C8B35B19940E960097A514 /* UILabel+PinchZoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C8B35A19940E960097A514 /* UILabel+PinchZoom.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99C8B34719940E400097A514 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99C8B31919940E400097A514 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99C8B32019940E400097A514;
+			remoteInfo = PinchZoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99C8B32119940E400097A514 /* PinchZoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchZoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C8B32419940E400097A514 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99C8B32619940E400097A514 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99C8B32819940E400097A514 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		99C8B32C19940E400097A514 /* PinchZoom-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PinchZoom-Info.plist"; sourceTree = "<group>"; };
+		99C8B32E19940E400097A514 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99C8B33019940E400097A514 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99C8B33219940E400097A514 /* PinchZoom-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PinchZoom-Prefix.pch"; sourceTree = "<group>"; };
+		99C8B33319940E400097A514 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99C8B33419940E400097A514 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99C8B33719940E400097A514 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99C8B33919940E400097A514 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		99C8B33A19940E400097A514 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		99C8B33C19940E400097A514 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		99C8B34219940E400097A514 /* PinchZoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchZoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C8B34319940E400097A514 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		99C8B34B19940E400097A514 /* PinchZoomTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PinchZoomTests-Info.plist"; sourceTree = "<group>"; };
+		99C8B34D19940E400097A514 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99C8B34F19940E400097A514 /* PinchZoomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchZoomTests.m; sourceTree = "<group>"; };
+		99C8B35919940E960097A514 /* UILabel+PinchZoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+PinchZoom.h"; sourceTree = "<group>"; };
+		99C8B35A19940E960097A514 /* UILabel+PinchZoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+PinchZoom.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99C8B31E19940E400097A514 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C8B32719940E400097A514 /* CoreGraphics.framework in Frameworks */,
+				99C8B32919940E400097A514 /* UIKit.framework in Frameworks */,
+				99C8B32519940E400097A514 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C8B33F19940E400097A514 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C8B34419940E400097A514 /* XCTest.framework in Frameworks */,
+				99C8B34619940E400097A514 /* UIKit.framework in Frameworks */,
+				99C8B34519940E400097A514 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		998EB34119950EA2006B8BB3 /* UILabelPinchZoom */ = {
+			isa = PBXGroup;
+			children = (
+				99C8B35919940E960097A514 /* UILabel+PinchZoom.h */,
+				99C8B35A19940E960097A514 /* UILabel+PinchZoom.m */,
+			);
+			name = UILabelPinchZoom;
+			path = "../../UILabel-PinchZoom";
+			sourceTree = "<group>";
+		};
+		99C8B31819940E400097A514 = {
+			isa = PBXGroup;
+			children = (
+				99C8B32A19940E400097A514 /* PinchZoom */,
+				99C8B34919940E400097A514 /* PinchZoomTests */,
+				99C8B32319940E400097A514 /* Frameworks */,
+				99C8B32219940E400097A514 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99C8B32219940E400097A514 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99C8B32119940E400097A514 /* PinchZoom.app */,
+				99C8B34219940E400097A514 /* PinchZoomTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99C8B32319940E400097A514 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99C8B32419940E400097A514 /* Foundation.framework */,
+				99C8B32619940E400097A514 /* CoreGraphics.framework */,
+				99C8B32819940E400097A514 /* UIKit.framework */,
+				99C8B34319940E400097A514 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99C8B32A19940E400097A514 /* PinchZoom */ = {
+			isa = PBXGroup;
+			children = (
+				99C8B33319940E400097A514 /* AppDelegate.h */,
+				99C8B33419940E400097A514 /* AppDelegate.m */,
+				99C8B33619940E400097A514 /* Main.storyboard */,
+				99C8B33919940E400097A514 /* ViewController.h */,
+				99C8B33A19940E400097A514 /* ViewController.m */,
+				99C8B33C19940E400097A514 /* Images.xcassets */,
+				99C8B32B19940E400097A514 /* Supporting Files */,
+				998EB34119950EA2006B8BB3 /* UILabelPinchZoom */,
+			);
+			path = PinchZoom;
+			sourceTree = "<group>";
+		};
+		99C8B32B19940E400097A514 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99C8B32C19940E400097A514 /* PinchZoom-Info.plist */,
+				99C8B32D19940E400097A514 /* InfoPlist.strings */,
+				99C8B33019940E400097A514 /* main.m */,
+				99C8B33219940E400097A514 /* PinchZoom-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99C8B34919940E400097A514 /* PinchZoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				99C8B34F19940E400097A514 /* PinchZoomTests.m */,
+				99C8B34A19940E400097A514 /* Supporting Files */,
+			);
+			path = PinchZoomTests;
+			sourceTree = "<group>";
+		};
+		99C8B34A19940E400097A514 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99C8B34B19940E400097A514 /* PinchZoomTests-Info.plist */,
+				99C8B34C19940E400097A514 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99C8B32019940E400097A514 /* PinchZoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C8B35319940E400097A514 /* Build configuration list for PBXNativeTarget "PinchZoom" */;
+			buildPhases = (
+				99C8B31D19940E400097A514 /* Sources */,
+				99C8B31E19940E400097A514 /* Frameworks */,
+				99C8B31F19940E400097A514 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinchZoom;
+			productName = PinchZoom;
+			productReference = 99C8B32119940E400097A514 /* PinchZoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99C8B34119940E400097A514 /* PinchZoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C8B35619940E400097A514 /* Build configuration list for PBXNativeTarget "PinchZoomTests" */;
+			buildPhases = (
+				99C8B33E19940E400097A514 /* Sources */,
+				99C8B33F19940E400097A514 /* Frameworks */,
+				99C8B34019940E400097A514 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99C8B34819940E400097A514 /* PBXTargetDependency */,
+			);
+			name = PinchZoomTests;
+			productName = PinchZoomTests;
+			productReference = 99C8B34219940E400097A514 /* PinchZoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99C8B31919940E400097A514 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Scientific Network South Tyrol";
+				TargetAttributes = {
+					99C8B34119940E400097A514 = {
+						TestTargetID = 99C8B32019940E400097A514;
+					};
+				};
+			};
+			buildConfigurationList = 99C8B31C19940E400097A514 /* Build configuration list for PBXProject "PinchZoom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99C8B31819940E400097A514;
+			productRefGroup = 99C8B32219940E400097A514 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99C8B32019940E400097A514 /* PinchZoom */,
+				99C8B34119940E400097A514 /* PinchZoomTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99C8B31F19940E400097A514 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C8B33D19940E400097A514 /* Images.xcassets in Resources */,
+				99C8B32F19940E400097A514 /* InfoPlist.strings in Resources */,
+				99C8B33819940E400097A514 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C8B34019940E400097A514 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C8B34E19940E400097A514 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99C8B31D19940E400097A514 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C8B33B19940E400097A514 /* ViewController.m in Sources */,
+				99C8B33519940E400097A514 /* AppDelegate.m in Sources */,
+				99C8B35B19940E960097A514 /* UILabel+PinchZoom.m in Sources */,
+				99C8B33119940E400097A514 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C8B33E19940E400097A514 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C8B35019940E400097A514 /* PinchZoomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99C8B34819940E400097A514 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99C8B32019940E400097A514 /* PinchZoom */;
+			targetProxy = 99C8B34719940E400097A514 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99C8B32D19940E400097A514 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99C8B32E19940E400097A514 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		99C8B33619940E400097A514 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99C8B33719940E400097A514 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99C8B34C19940E400097A514 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99C8B34D19940E400097A514 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99C8B35119940E400097A514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99C8B35219940E400097A514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99C8B35419940E400097A514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinchZoom/PinchZoom-Prefix.pch";
+				INFOPLIST_FILE = "PinchZoom/PinchZoom-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		99C8B35519940E400097A514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinchZoom/PinchZoom-Prefix.pch";
+				INFOPLIST_FILE = "PinchZoom/PinchZoom-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		99C8B35719940E400097A514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PinchZoom.app/PinchZoom";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinchZoom/PinchZoom-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PinchZoomTests/PinchZoomTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		99C8B35819940E400097A514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PinchZoom.app/PinchZoom";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinchZoom/PinchZoom-Prefix.pch";
+				INFOPLIST_FILE = "PinchZoomTests/PinchZoomTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99C8B31C19940E400097A514 /* Build configuration list for PBXProject "PinchZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C8B35119940E400097A514 /* Debug */,
+				99C8B35219940E400097A514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99C8B35319940E400097A514 /* Build configuration list for PBXNativeTarget "PinchZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C8B35419940E400097A514 /* Debug */,
+				99C8B35519940E400097A514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99C8B35619940E400097A514 /* Build configuration list for PBXNativeTarget "PinchZoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C8B35719940E400097A514 /* Debug */,
+				99C8B35819940E400097A514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99C8B31919940E400097A514 /* Project object */;
+}
