@@ -1,4 +1,4 @@
-THNotesTextView
+UILabel+PinchZoom
 ===
 
 [![Pod Version](http://img.shields.io/cocoapods/v/UILabel+PinchZoom.svg?style=flat)](http://cocoadocs.org/docsets/UILabel+PinchZoom/)
@@ -18,7 +18,7 @@ Install with [CocoaPods](http://cocoapods.org) by adding the following to your P
 
 ``` ruby
 platform :ios, '4.3'
-pod 'UILabel+PinchZoom', '~> 0.0.1'
+pod 'UILabel+PinchZoom', '~> 0.0.2'
 ```
 
 **Note**: We follow http://semver.org for versioning the public API.
@@ -52,7 +52,7 @@ Have a look at the Example Project for more details
 
 #Contributions
 
-...are really welcome.
+...are really welcome. If you have an idea just fork the library change it and if its useful for others and not affecting the functionality of the library for other users I'll insert it
 
 # License
 
